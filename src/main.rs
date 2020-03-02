@@ -20,7 +20,11 @@
 // mod pattern_match;
 // mod reading_user_input;
 // mod hash_map;
-mod random_number;
+// mod random_number;
+// mod str_methods;
+// mod regex;
+// mod modules_use;
+mod http_request;
 
 fn main() {
     // print::run();
@@ -41,6 +45,9 @@ fn main() {
     // pattern_match::run();
     // reading_user_input::run();
     // hash_map::run();
-    random_number::run();
+    // random_number::run();
+    // modules_use::run();
+    // option_use::run();
+    http_request::run();
 }
 
