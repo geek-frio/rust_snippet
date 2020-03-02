@@ -26,7 +26,8 @@
 // mod modules_use;
 // mod http_request;
 // mod exec_cmd;
-mod running_test;
+// mod running_test;
+mod json_parse;
 
 fn main() {
     // print::run();
@@ -52,6 +53,7 @@ fn main() {
     // option_use::run();
     // http_request::run();
     // exec_cmd::run();
-    running_test::run();
+    // running_test::run();
+    json_parse::run();
 }
 
