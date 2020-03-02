@@ -17,6 +17,24 @@ fn move_avatar(m: Movement) {
     }
 }
 
+enum Day {
+    Monday, Tuesday, Wednesday, Thursday, Friday,
+    Saturday, Sunday
+}
+
+impl Day {
+    fn is_weekday(&self) -> bool {
+        match self {
+            &Day::Saturday || && Day::Sunday => {
+                return false;
+            },
+            _ => {
+                return true;
+            }
+        }
+    }
+}
+
 pub fn run(){
     let avatar1 = Movement::Left;
     let avatar2 = Movement::Right;

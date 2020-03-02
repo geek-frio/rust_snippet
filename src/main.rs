@@ -24,7 +24,9 @@
 // mod str_methods;
 // mod regex;
 // mod modules_use;
-mod http_request;
+// mod http_request;
+// mod exec_cmd;
+mod running_test;
 
 fn main() {
     // print::run();
@@ -48,6 +50,8 @@ fn main() {
     // random_number::run();
     // modules_use::run();
     // option_use::run();
-    http_request::run();
+    // http_request::run();
+    // exec_cmd::run();
+    running_test::run();
 }
 
